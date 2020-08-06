@@ -1,0 +1,23 @@
+<div class="form">
+    <mat-card class="card">
+        <mat-card-title>Create User</mat-card-title>
+        <mat-card-content>
+            <div class="container">
+                <mat-form-field>
+                    <input [(ngModel)]="createTask.name" matInput placeholder="Name">
+                </mat-form-field>
+                <mat-form-field>
+                    <input [(ngModel)]="createTask.function" matInput placeholder="Function">
+                </mat-form-field>
+                <mat-form-field>
+                    <input [(ngModel)]="createTask.boss" matInput placeholder="Boss">
+                </mat-form-field>
+                
+            </div>
+        </mat-card-content>
+        <mat-card-actions>
+            <!--<button (click)="create()" class="button" mat-raised-button color="accent">Create Task</button>-->
+            <button (click)="create()" class="button" mat-raised-button color="accent">Create user</button> 
+        </mat-card-actions>
+    </mat-card>
+</div>
